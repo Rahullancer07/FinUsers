@@ -1,0 +1,23 @@
+.userList_table {
+  width: 100%;
+  display: flex;
+}
+
+table {
+  box-shadow: rgba(190, 178, 178, 0.35) 0px 5px 15px;
+  color: white;
+  font-family: 'Chivo Mono', monospace;
+  width: 100%;
+  margin: 30px;
+}
+
+th {
+  height: 50px;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom right, #333da5, #090f50);
+}
+
+td {
+  height: 50px;
+  text-align: center;
+}

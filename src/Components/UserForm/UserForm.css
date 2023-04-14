@@ -1,0 +1,62 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.userForm {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Chivo Mono", monospace;
+}
+
+.userForm_control {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  align-items: center;
+}
+
+.userForm_control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  width: 50px;
+}
+
+.userForm_control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.userForm_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.userForm_input span {
+  margin-top: 10px;
+}
+
+.userForm_action {
+    display: flex;
+    justify-content: center;
+}
+
+.userForm_submit {
+  width: 100px;
+  background: linear-gradient(-180deg, #a89e98, #5666c4);
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: "Chivo Mono", monospace;
+  cursor: pointer;
+  line-height: 40px;
+  border: 0;
+}

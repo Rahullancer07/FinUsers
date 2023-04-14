@@ -1,0 +1,21 @@
+.searchbar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar_input {
+  background-color: #0b0d22;
+  width: 400px;
+  border: 2px solid grey;
+  padding: 15px;
+  height: 20px;
+  font-family: 'Chivo Mono', monospace;
+  color: white;
+  border-radius: 40px;
+}
+
+input::placeholder {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 15px;
+}
