@@ -27,7 +27,6 @@ const App = () => {
       return [...prevUsers, savedUserData];
     });
   };
-  console.log('users', users)
 
   return (
     <div>

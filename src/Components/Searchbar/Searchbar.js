@@ -1,7 +1,7 @@
 import React from "react";
 import "./Searchbar.css";
 
-const Searchbar = ({ users, setSearchedUsers, setIsSearched}) => {
+const Searchbar = ({ users, setSearchedUsers, setIsSearched }) => {
   const searchResult = (e) => {
     if (e.target.value.length > 0) {
       setIsSearched(true);

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./UserForm.css";
 
-const UserForm = ({ onSaveUserData , users, setShowUserForm}) => {
+const UserForm = ({ onSaveUserData, users, setShowUserForm }) => {
   const [enteredName, setEnteredName] = useState("");
   const [enteredEmail, setEnteredEmail] = useState("");
   const [enteredPhone, setEnteredPhone] = useState();
@@ -34,7 +34,6 @@ const UserForm = ({ onSaveUserData , users, setShowUserForm}) => {
     setEnteredEmail("");
     setEnteredPhone("");
   };
-
 
   return (
     <div className="userForm">
