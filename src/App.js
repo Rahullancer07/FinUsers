@@ -27,7 +27,7 @@ const App = () => {
       return [...prevUsers, savedUserData];
     });
   };
-
+  
   return (
     <div>
       <Navbar setShowUserForm={setShowUserForm} />
